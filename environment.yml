@@ -1,0 +1,9 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.10.8
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
