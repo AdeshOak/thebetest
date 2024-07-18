@@ -1,14 +1,6 @@
-# Core Jupyter environment
 jupyterlab==3.6.0
-# OR for Jupyter Notebook
-# notebook==6.5.2
-
-# Thebe for interactive code execution
 thebe==0.2.0
-
-# Commonly used data science packages
 numpy==1.24.3
 pandas==2.0.1
 matplotlib==3.7.1
 scikit-learn==1.2.2
-# Add any other necessary packages
