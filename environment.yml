@@ -3,12 +3,14 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10.8  # Specify the Python version
+  - python=3.11  # Specify the Python version
   - jupyterlab  # OR jupyter-notebook
-  - thebe  # For Thebe integration
-  - numpy  # Add other packages as needed
+  - numpy
   - pandas
   - matplotlib
   - scikit-learn
-  # Add any other dependencies needed for your project
-
+  # Add any other conda dependencies here
+  - pip
+  - pip:
+      - thebe==0.2.0  # For Thebe integration
+      # Add any other pip dependencies here
