@@ -1,16 +1,9 @@
-name: mybinder-env  # Specify the name of the environment
+name: myenv
 channels:
-  - conda-forge
   - defaults
 dependencies:
-  - python=3.11  # Specify the Python version
-  - jupyterlab  # OR jupyter-notebook
+  - python=3.10.8
   - numpy
-  - pandas
   - matplotlib
+  - pandas
   - scikit-learn
-  # Add any other conda dependencies here
-  - pip
-  - pip:
-      - thebe==0.2.0  # For Thebe integration
-      # Add any other pip dependencies here
