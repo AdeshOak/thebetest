@@ -13,9 +13,6 @@ dependencies:
     - jupyterlab==3.6.0
     - thebe==0.0.2
     - torch==2.0.1
-    - torchvision==0.15.2
-    - pytorch-lightning==2.0.1
-    - pytorch-lightning-bolts==0.6.0
-    - tensorboard==2.13.0
+    
 
 
