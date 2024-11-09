@@ -11,7 +11,6 @@ dependencies:
   - pytorch=2.3.0
   - torchvision=0.18.0
   - pytorch-lightning=1.9.5
-  - pytorch-lightning-bolts
   - tensorboard=2.16.2
   - pip
   - pip:
@@ -31,6 +30,7 @@ dependencies:
       - matplotlib
       - scikit-learn
       - pandas
+      - pytorch-lightning-bolts=0.5.0
       - thebe==0.0.2
       - torchmetrics
       - torch
