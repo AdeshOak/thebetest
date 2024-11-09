@@ -1,11 +1,8 @@
-jupyterlab==3.6.0
+# requirements.txt
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+matplotlib==3.9.0
 thebe==0.0.2
-numpy==1.24.3
-pandas==2.0.1
-matplotlib==3.7.1
-scikit-learn==1.2.2
-torch==2.0.1
-torchvision==0.15.2
-pytorch-lightning==1.8.0
-pytorch-lightning-bolts==0.6.0
-tensorboard==2.13.0
+torch==2.3.0
+

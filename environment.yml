@@ -3,18 +3,34 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.10.8
-  - numpy=1.24.3
-  - matplotlib=3.7.1
-  - pandas=2.0.1
-  - scikit-learn=1.2.2
-  - pip<24.1
-  - pytorch=1.9.0
-  - torchvision>=0.15.2  # Ensure a recent version compatible with PyTorch 2.0+
-  - pytorch-lightning=2.0.1
+  - python=3.10
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scikit-learn=1.5.0
+  - matplotlib=3.9.0
+  - pytorch=2.3.0
+  - torchvision=0.18.0
+  - pytorch-lightning=1.9.5
+  - tensorboard=2.16.2
+  - pip
   - pip:
-      - jupyterlab==3.6.0
+      - absl-py==2.1.0
+      - aiohttp==3.9.5
+      - aiosignal==1.3.1
+      - anyio==4.4.0
+      - argon2-cffi==23.1.0
+      - arrow==1.3.0
+      - jupyter
+      - jupyterlab
+      - nbconvert
+      - jupyter-client
+      - jupyter-server
+      - ipykernel
+      - notebook
+      - matplotlib
+      - scikit-learn
+      - pandas
       - thebe==0.0.2
-      - pytorch-lightning-bolts==0.3.2  # Use a compatible bolts version
-      - tensorboard
-
+      - torchmetrics
+      - torch
+      - torchvision
