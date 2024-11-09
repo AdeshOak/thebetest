@@ -10,14 +10,11 @@ dependencies:
   - scikit-learn=1.2.2
   - pip<24.1
   - pytorch=2.0.1
-  - torchvision=0.15.2
+  - torchvision>=0.15.2  # Ensure a recent version compatible with PyTorch 2.0+
+  - pytorch-lightning=2.0.1
   - pip:
       - jupyterlab==3.6.0
       - thebe==0.0.2
-      - lightning-bolts==0.6.0.post1
-      - lightning-lite==1.8.0
-      - lightning-utilities==0.3.0
-      - pytorch-lightning==1.8.0
-      - torchmetrics==0.11.0
-      - tensorboard==2.12.3
+      - pytorch-lightning-bolts>=0.5.0  # Use a compatible bolts version
+      - tensorboard
 
