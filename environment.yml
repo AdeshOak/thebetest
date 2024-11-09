@@ -30,7 +30,7 @@ dependencies:
       - matplotlib
       - scikit-learn
       - pandas
-      - pytorch-lightning-bolts=0.5.0
+      - pytorch-lightning-bolts==0.3.2.post1
       - thebe==0.0.2
       - torchmetrics
       - torch
