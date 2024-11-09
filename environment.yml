@@ -15,6 +15,6 @@ dependencies:
   - pip:
       - jupyterlab==3.6.0
       - thebe==0.0.2
-      - pytorch-lightning-bolts>=0.5.0  # Use a compatible bolts version
+      - pytorch-lightning-bolts==0.3.2  # Use a compatible bolts version
       - tensorboard
 
